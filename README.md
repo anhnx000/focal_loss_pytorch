@@ -1,9 +1,10 @@
-# Focal Loss for Dense Object Detection in PyTorch
+# Focal Loss for Multiple classification in Pytorch
+
 ![focal loss](images/focal_loss.png)
 [Focal Loss for Dense Object Detection](https://arxiv.org/pdf/1708.02002.pdf)
 
-# Result
- Method             | training set | val set | mAP
----                 |---           |---      |---
- Cross Entropy Loss |VOC2007  | VOC2007 | 63.36
- Focal Loss         |VOC2007  | VOC2007 | 65.26
+# Reference
+
+Modify from:
+
+[clcarwin/focal_loss_pytorch: A PyTorch Implementation of Focal Loss. (github.com)](https://github.com/clcarwin/focal_loss_pytorch)
